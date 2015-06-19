@@ -1,4 +1,4 @@
-# 在rmarkdown文件中可以使用printr包和knitr包中的kable函数来美化图表的输出样式。例如   
++ 在rmarkdown文件中可以使用printr包和knitr包中的kable函数来美化图表的输出样式。例如   
 ```r
 library(printr)
 library(knitr)
