@@ -1,0 +1,7 @@
+# 在rmarkdown文件中可以使用printr包和knitr包中的kable函数来美化图表的输出样式。例如   
+```r
+library(printr)
+library(knitr)
+kable(x = data.frame(dimension=c("1d","2d","nd"),Homogeneous=c("Atomic vector","Matrix","Array"),
+           Heterogeneous=c("List","Data Frame","")),align = 'c',caption = 'data structures')
+```
