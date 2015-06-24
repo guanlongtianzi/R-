@@ -7,10 +7,15 @@ kable(x = data.frame(dimension=c("1d","2d","nd"),Homogeneous=c("Atomic vector","
 ```
 
 + 《Advanced R》上传到了百度云盘上（谷之云山），文件夹为**Advanced R**，包括rmd、tex、word和pdf格式各一份，还有书中包括的一些图片也包含其中。
+
 + 在rmd文件中如果将dev参数设置为**tikz**格式的话，那么图将会使用tex代码生成，非常美观。
+
 + 如果想要rmd中输出的代码进行美化，应该将**tidy**参数设置为**TRUE**。
+
 + [Kaggle 机器学习竞赛冠军及优胜者的源代码汇总](http://suanfazu.com/t/kaggle-ji-qi-xue-xi-jing-sai-guan-jun-ji-you-sheng-zhe-de-yuan-dai-ma-hui-zong/230)
+
 + [A Tufte-style Jekyll blog powered by servr and knitr](http://cpsievert.github.io/knitr-jekyll/2015/04/jekyll-tufte-servr.html)。
+
 + [Plotly](https://plot.ly/feed/)一个非常好的在线绘图网站，有python、R、matlab、julia的接口，excel的插件放在了百度云盘中，文件夹为*plotly*，在R中的安装方式如下：
 ```r
 library(devtools)
@@ -19,4 +24,14 @@ install_github("ropensci/plotly")
 plotly的用户名为**luojie2211**，API Key为**g96afunebs**，如果遗忘，在登录状态下可以查看[该网页](https://plot.ly/settings/api)。
 
 + [R、Python和Julia中的7个数据可视化工具](http://blog.sense.io/7-tools-data-visualization-in-r-python-and-julia/)
+
 + [雪晴数据网](http://xueqing.cc/)，很好的R语言在线学习网站。
+
++ tempdir()，获取临时文件所在的文件夹
+
++ tempfile()，获取当前的临时文件
+
++ png包可以读写png格式的图片
+
++ unlink()，删除文件或目录
+
