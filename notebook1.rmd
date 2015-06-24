@@ -16,3 +16,4 @@ kable(x = data.frame(dimension=c("1d","2d","nd"),Homogeneous=c("Atomic vector","
 library(devtools)
 install_github("ropensci/plotly")
 ```
+plotly的用户名为**luojie2211**，API Key为**g96afunebs**。
