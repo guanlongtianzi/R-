@@ -7,4 +7,5 @@ kable(x = data.frame(dimension=c("1d","2d","nd"),Homogeneous=c("Atomic vector","
 ```
 
 + 《Advanced R》上传到了百度云盘上（谷之云山），文件夹为**Advanced R**，包括rmd、tex、word和pdf格式各一份，还有书中包括的一些图片也包含其中。
-+  在rmd文件中如果将dev参数设置为**tikz**格式的话，那么图将会使用tex代码生成，非常美观。
++ 在rmd文件中如果将dev参数设置为**tikz**格式的话，那么图将会使用tex代码生成，非常美观。
++ 如果想要rmd中输出的代码进行美化，应该将**tidy**参数设置为**TRUE**。
