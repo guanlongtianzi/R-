@@ -35,3 +35,4 @@ plotly的用户名为**luojie2211**，API Key为**g96afunebs**，如果遗忘，
 
 + unlink()，删除文件或目录
 
++ [Top 10 Machine Learning Videos on YouTube](http://www.kdnuggets.com/2015/06/top-10-machine-learning-videos-youtube.html)
