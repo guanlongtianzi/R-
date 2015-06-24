@@ -17,3 +17,6 @@ library(devtools)
 install_github("ropensci/plotly")
 ```
 plotly的用户名为**luojie2211**，API Key为**g96afunebs**，如果遗忘，在登录状态下可以查看[该网页](https://plot.ly/settings/api)。
+
++ [R、Python和Julia中的7个数据可视化工具](http://blog.sense.io/7-tools-data-visualization-in-r-python-and-julia/)
++ [雪晴数据网](http://xueqing.cc/)，很好的R语言在线学习网站。
