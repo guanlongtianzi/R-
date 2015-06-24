@@ -10,4 +10,9 @@ kable(x = data.frame(dimension=c("1d","2d","nd"),Homogeneous=c("Atomic vector","
 + 在rmd文件中如果将dev参数设置为**tikz**格式的话，那么图将会使用tex代码生成，非常美观。
 + 如果想要rmd中输出的代码进行美化，应该将**tidy**参数设置为**TRUE**。
 + [Kaggle 机器学习竞赛冠军及优胜者的源代码汇总](http://suanfazu.com/t/kaggle-ji-qi-xue-xi-jing-sai-guan-jun-ji-you-sheng-zhe-de-yuan-dai-ma-hui-zong/230)
-+ [A Tufte-style Jekyll blog powered by servr and knitr](http://cpsievert.github.io/knitr-jekyll/2015/04/jekyll-tufte-servr.html)
++ [A Tufte-style Jekyll blog powered by servr and knitr](http://cpsievert.github.io/knitr-jekyll/2015/04/jekyll-tufte-servr.html)。
++ [Plotly](https://plot.ly/feed/)一个非常好的在线绘图网站，有python、R、matlab、julia的接口，安装方式如下：
+```r
+library(devtools)
+install_github("ropensci/plotly")
+```
