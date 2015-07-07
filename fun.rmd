@@ -1,0 +1,4 @@
+# R.home(component = 'library')  
+显示R的安装路径。  
+
+
